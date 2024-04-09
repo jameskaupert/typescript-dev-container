@@ -1,0 +1,26 @@
+{
+  "name": "typescript-dev-container",
+  "version": "1.0.0",
+  "description": "Template repo for setting up baseline Typescript devcontainer for VSCode",
+  "main": "index.ts",
+  "scripts": {
+    "check": "npx prettier . --check",
+    "format": "npx prettier . --write",
+    "lint": "npx eslint .",
+    "build": "tsc",
+    "test": "vitest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@eslint/js": "^9.0.0",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "globals": "^15.0.0",
+    "prettier": "3.2.5",
+    "typescript": "^5.4.4",
+    "typescript-eslint": "^7.6.0",
+    "vitest": "^1.4.0"
+  }
+}
